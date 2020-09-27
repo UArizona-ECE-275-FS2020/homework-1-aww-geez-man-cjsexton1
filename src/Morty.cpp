@@ -56,7 +56,7 @@ void C137::Morty(int start, int stop, int step) {
 
 void Z286::Morty(int start, int stop) {
 	
-	std::cout << "Morty C286 says:" << std::endl;
+	std::cout << "Morty Z286 says:" << std::endl;
 
 	for (start; start <= stop; start++) {
 		if (start % 15 == 0) {
@@ -76,7 +76,7 @@ void Z286::Morty(int start, int stop) {
 
 void Z286::Morty(int start, int stop, int step) {
 	
-	std::cout << "Morty C286 says:" << std::endl;
+	std::cout << "Morty Z286 says:" << std::endl;
 
 	for (start; start <= stop; start = step + start) {
 		if (start % 15 == 0) {
