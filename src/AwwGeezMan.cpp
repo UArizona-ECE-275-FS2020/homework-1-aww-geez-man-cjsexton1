@@ -82,14 +82,11 @@ int main(int ac, char** av) {
 		int stepNum = atoi(av[3]);
 
 
-		if (*av[4] == *strC137) {
-
-			for (startNum; startNum <= endNum; startNum = startNum + stepNum) {
+		if (*av[4] == *strZ286) {
 
 				Z286::Morty(startNum, endNum, stepNum);
 
 				return 0;
-			}
 		}
 		else if (*av[4] == *strC137) {
 
